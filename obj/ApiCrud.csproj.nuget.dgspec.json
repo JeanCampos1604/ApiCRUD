@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hino\\Documents\\Treinamentos\\ASP NET\\ApiCrud\\ApiCrud.csproj": {}
+    "c:\\Users\\Hino\\Documents\\Treinamentos\\ASPNET\\ApiCrud\\ApiCrud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hino\\Documents\\Treinamentos\\ASP NET\\ApiCrud\\ApiCrud.csproj": {
+    "c:\\Users\\Hino\\Documents\\Treinamentos\\ASPNET\\ApiCrud\\ApiCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hino\\Documents\\Treinamentos\\ASP NET\\ApiCrud\\ApiCrud.csproj",
+        "projectUniqueName": "c:\\Users\\Hino\\Documents\\Treinamentos\\ASPNET\\ApiCrud\\ApiCrud.csproj",
         "projectName": "ApiCrud",
-        "projectPath": "C:\\Users\\Hino\\Documents\\Treinamentos\\ASP NET\\ApiCrud\\ApiCrud.csproj",
+        "projectPath": "c:\\Users\\Hino\\Documents\\Treinamentos\\ASPNET\\ApiCrud\\ApiCrud.csproj",
         "packagesPath": "C:\\Users\\Hino\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hino\\Documents\\Treinamentos\\ASP NET\\ApiCrud\\obj\\",
+        "outputPath": "c:\\Users\\Hino\\Documents\\Treinamentos\\ASPNET\\ApiCrud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -54,6 +54,24 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Oracle.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
             },
