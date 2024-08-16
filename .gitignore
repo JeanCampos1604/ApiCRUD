@@ -1,6 +1,5 @@
 # User secrets
 secrets.json
 
-# App settings
 appsettings.json
 appsettings.*.json
